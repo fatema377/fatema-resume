@@ -16,6 +16,7 @@
 background-image: url('../images/developer.png'), url('../images/header_bg.png');
 background-repeat: no-repeat;
 background-position: top left , bottom right;
+
 }
 /* btn primary */
 .btn-prm {
@@ -54,7 +55,7 @@ nav li a {
     font-weight: 600;
 }
 .bnr-tit {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 800;
 }
 .bnr-pp {
@@ -102,4 +103,112 @@ nav li a {
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
+    margin-top: 100px; margin-bottom: 100px;
+}
+/* center */
+.t-cntr {
+    text-align: center;
+}
+/* skills style */
+.sk-cntnt {
+    display: flex;
+    gap: 38px;
+    
+   }
+   /*
+.sk-des{
+    padding:35px ;
+}
+.sk-tit {
+padding-left: 35px;
+}
+.sk-img {
+    padding-left: 35px;
+}*/
+.sec-des{
+    padding-right:48px;
+} 
+.skill{
+    padding: 38px;
+    box-shadow: 0px 6px 50px 0px rgba(17, 0, 0, 0.06);
+   border-radius: 5px;
+}
+/* resume style */
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+.res-tit {
+    text-align: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.rsm-clm-tit
+{
+    margin: 20px;
+}
+.experience{
+    margin: 0px 20px;
+}
+.resume-column0{
+    margin-left: 100px;
+    padding-left: 50px;
+}
+.resume-column1{
+margin-right: 100px;
+padding-right: 50px;
+}
+/* common */
+.cmn-txt{
+    font-size: 28px;
+    font-weight: bold;
+    color: #181818;
+}
+.cmn-fnt{
+    font-size: 24;
+    font-weight: bold;
+    color: #181818;
+}
+.resume{
+    min-width: 580px;
+    background-color: #FFF8F3;
+}
+.expr-des{
+    padding-bottom: 50px;
+    color: #757575;
+    font-size: 16px;
+}
+.footer {
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 90px 120px;
+    gap: 100px;
+}
+.footer-column {
+    padding: 50px;
+    width: 50%;
+}
+input{
+    height: 64px;
+    border-radius: 5px;
+    width: 441px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 20px;
+     border: none;
+}
+textarea{
+    height: 94px;
+    border-radius: 5px;
+    width: 441px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    border: none;
+
 }
